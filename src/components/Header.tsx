@@ -1,10 +1,7 @@
 import * as React from "react";
 import { NavLink } from "react-router-dom";
-<<<<<<< HEAD
 import Background from "./Background/Background";
 import { Main } from "./Main/Main";
-=======
->>>>>>> f8061bbe9eea8f86623fb51e7dc840d0052f878b
 
 export const Header: React.StatelessComponent<{}> = () => {
   return (
@@ -41,7 +38,6 @@ export const Header: React.StatelessComponent<{}> = () => {
               <span className="navbar-toggler-icon" />
             </button>
 
-<<<<<<< HEAD
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
@@ -150,95 +146,6 @@ export const Header: React.StatelessComponent<{}> = () => {
             </div>
           </nav>
         </div>
-=======
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto text-capitalize">
-              <li className="nav-item hvrcenter">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/about"
-                >
-                  {" "}
-                  Home
-                </NavLink>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbardrop"
-                  data-toggle="dropdown"
-                >
-                  Services
-                </a>
-                <div className="dropdown-menu">
-                  <NavLink className="dropdown-item" to="/enterprise">
-                    {" "}
-                    Enterprise Transformation{" "}
-                  </NavLink>
-                  <NavLink className="dropdown-item" to="/foundation">
-                    {" "}
-                    Foundation{" "}
-                  </NavLink>
-                  <NavLink className="dropdown-item" to="/migration">
-                    {" "}
-                    Migration & Deployment{" "}
-                  </NavLink>
-                  <NavLink className="dropdown-item" to="/operation">
-                    {" "}
-                    Operations{" "}
-                  </NavLink>
-                  <NavLink className="dropdown-item" to="/optimization">
-                    {" "}
-                    Optimization{" "}
-                  </NavLink>
-                </div>
-              </li>
-              <li className="nav-item hvrcenter">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/solution"
-                >
-                  {" "}
-                  Solution{" "}
-                </NavLink>
-              </li>
-              <li className="nav-item hvrcenter">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/scloud"
-                >
-                  {" "}
-                  Scloud{" "}
-                </NavLink>
-              </li>
-              <li className="nav-item hvrcenter">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/resources"
-                >
-                  {" "}
-                  Resources{" "}
-                </NavLink>
-              </li>
-              <li className="nav-item hvrcenter">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/company"
-                >
-                  {" "}
-                  Company{" "}
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        </nav>
->>>>>>> f8061bbe9eea8f86623fb51e7dc840d0052f878b
       </div>
     </div>
   );

@@ -514,3 +514,34 @@ h6 {
   color: rgba(215, 138, 253, 1);
   background-color: #fff;
 }
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  right: 6.5rem;
+  top: 0;
+  position: absolute;
+  width: 14vw;
+  z-index: 999999;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.nav-line::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+  top: 1px;
+  z-index: 99999;
+}
+
+div#navbarSupportedContent {
+  margin-top: 10px;
+}
+nav#navbar {
+  padding-top: 20px;
+}
+/* css grid */

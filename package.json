@@ -6,7 +6,15 @@
   "homepage": "https://mustafa-synectiks.github.io/synectiks-website/",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+>>>>>>> f8061bbe9eea8f86623fb51e7dc840d0052f878b
   },
   "author": "",
   "license": "ISC",
